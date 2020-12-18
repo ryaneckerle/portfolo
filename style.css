@@ -1,0 +1,242 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('./images/bg-image.jpg');
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  scroll-behavior: smooth;
+}
+
+header {
+  height: 100px;
+  top: 0;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+h1,
+h2 {
+  font-family: 'Raleway';
+  font-weight: 500;
+}
+
+#name {
+  margin-left: 75px;
+  font-size: 2rem;
+  text-shadow: 0 0 10px rgb(255, 194, 26);
+}
+
+.navbar-nav {
+  margin-right: 100px;
+}
+
+.navbar-nav a {
+  margin-right: 25px;
+  font-weight: bold;
+}
+
+.navbar-nav a:hover {
+  background-color: rgba(33, 33, 226, 0.527);
+}
+
+#landing {
+  margin: 100px auto 250px auto;
+}
+
+h1 {
+  color: white;
+  padding-top: 3.5em;
+  font-size: 5em;
+  text-align: center;
+}
+
+#title {
+  color: #ffffff;
+  font-size: 2em;
+  font-family: 'Raleway';
+  font-weight: 500;
+  text-align: center;
+}
+
+.headline p {
+  color: #ffffff;
+  font-size: 1em;
+  text-align: center;
+}
+
+.wrapper {
+  margin-bottom: 75px;
+  padding-top: 150px;
+}
+
+#about .container {
+  height: 65%;
+  width: 50%;
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 75px;
+  text-align: center;
+  align-self: center;
+}
+
+#about h1 {
+  color: #000000;
+  margin: 0 auto;
+  padding: 0.5em 0;
+  font-size: 3.5em;
+}
+
+#about p {
+  margin-top: 10px;
+  padding: 10px;
+  text-align: left;
+}
+
+#projects .container {
+  align-items: cents;
+}
+
+#projects .row {
+  margin: auto auto;
+  height: 50%;
+  width: 75%;
+}
+
+.card {
+  border-radius: 50px;
+}
+
+.card img {
+  border-radius: 50px 50px 0 0;
+}
+
+.card-title {
+  text-align: center;
+}
+
+#contact {
+  margin-bottom: 5rem;
+}
+
+#contact .row {
+  width: 75%;
+  margin: 0 auto;
+  align-items: center;
+}
+
+#form {
+  margin-bottom: 150px;
+  background-color: #ffffff;
+  border-radius: 10%;
+  display: block;
+}
+
+#form h2 {
+  padding: 10px 0;
+  text-align: center;
+}
+
+form {
+  margin: auto auto;
+  align-items: center;
+}
+
+input {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  border-radius: 50px;
+  display: block;
+  font-style: italic;
+}
+
+textarea {
+  margin-left: 135px;
+  border-radius: 25px;
+}
+
+button {
+  height: 40px;
+  width: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 167px;
+  background: none;
+  border-style: hidden;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 500;
+  box-shadow: 5px 10px lightgray;
+  align-self: center;
+}
+
+button:hover {
+  background-color: rgb(255, 175, 27);
+}
+
+footer {
+  background-color: black;
+  color: white;
+  height: 50px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#footer .row {
+  width: 50%;
+  margin: 10px auto 0 auto;
+}
+
+#footer a {
+  color: white;
+  text-decoration: none;
+}
+
+#links {
+  margin: auto 25px auto 0;
+  padding: auto;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+i {
+  margin-top: auto;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+#about,
+#projects,
+#contact {
+  margin-top: 100px;
+}
+
+.glow {
+  text-align: center;
+  font-family: 'Raleway';
+  font-size: 5em;
+  color: white;
+  letter-spacing: -7px;
+  font-weight: 500;
+  animation: blur 1.5s ease-out infinite;
+  text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
+}
+
+@keyframes blur {
+  from {
+    text-shadow: 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 25px #fff,
+      0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 25px #fff,
+      0px 0px 25px #fff, 0px 0px 50px #fff, 0px 0px 50px #fff,
+      0px 0px 50px #7b96b8, 0px 0px 150px #7b96b8, 0px 10px 100px #7b96b8,
+      0px 10px 100px #7b96b8, 0px 10px 100px #7b96b8, 0px 10px 100px #7b96b8,
+      0px -10px 100px #7b96b8, 0px -10px 100px #7b96b8;
+  }
+}

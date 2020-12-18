@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ryan's Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" id="name" href="index.html">Ryan</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-end"
+              id="navbarNavAltMarkup"
+            >
+              <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="#landing"
+                  >HOME</a
+                >
+                <a class="nav-link" href="#about">ABOUT</a>
+                <a class="nav-link" href="#projects">PROJECTS</a>
+                <a class="nav-link" href="#contact">CONTACT</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <div id="landing">
+        <div class="headline">
+          <h1 class="glow">Ryan Eckerle</h1>
+          <p id="title">Web Developer Student</p>
+          <p><em>Attitudes are contagious; make yours worth catching.</em></p>
+        </div>
+      </div>
+      <div class="wrapper" id="about">
+        <div class="container">
+          <h1>ABOUT</h1>
+          <div class="row">
+            <div class="col">
+              <p>
+                I am excited to bring my passion for life-long learning and
+                perseverance into tech. I am currently building my skills as I
+                prpgress through Eleven Fifty Academy. Stretching myself in
+                every way to be job ready and become a valuable asset for a
+                company to hire.
+              </p>
+            </div>
+            <div class="col">
+              <p>
+                I am thrilled to be able to bring a range of skills from my
+                previous work in massage therapy and bodywork, in which I held a
+                board certification. Having worked with diverse population of
+                people and a variety of settings will suit me well in the
+                abiltiy to work well with everyone. Start the conversation with
+                me via the
+                <a href="#contact">contact</a> form below.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="wrapper" id="projects">
+        <div class="container">
+          <div class="row">
+            <div class="card-group">
+              <div class="card">
+                <a
+                  href="https://codepen.io/CodePenReactor/pen/PozXoKo"
+                  target="blank"
+                >
+                  <img
+                    src="./images/cssCreature.PNG"
+                    class="card-img-top"
+                    alt="Yellow star with face"
+                    id="project1"
+                  />
+                </a>
+                <div class="card-body">
+                  <h2 class="card-title">CSS Creature</h2>
+                </div>
+              </div>
+              <div class="card">
+                <a
+                  href="https://ryaneckerle.github.io/staticLayout/"
+                  target="blank"
+                >
+                  <img
+                    src="./images/kastapp.PNG"
+                    class="card-img-top"
+                    alt="laptop image"
+                  />
+                </a>
+                <div class="card-body">
+                  <h2 class="card-title">Static Layout</h2>
+                </div>
+              </div>
+              <div class="card">
+                <a href="https://apiproject-eff53.web.app/" target="blank">
+                  <img
+                    src="./images/api.PNG"
+                    class="card-img-top"
+                    alt="image with quote"
+                    id="project2"
+                  />
+                </a>
+                <div class="card-body">
+                  <h2 class="card-title">API Project</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="wrapper" id="contact">
+        <div class="conatiner">
+          <div class="row">
+            <div class="col"></div>
+            <div class="col" id="form">
+              <h2>Contact Me</h2>
+              <form action="https://formspree.io/f/mvovweqq" method="POST">
+                <input type="text" name="name" placeholder="Name" required />
+                <input
+                  type="text"
+                  name="_replyto"
+                  placeholder="Email"
+                  required
+                />
+                <textarea
+                  name="message"
+                  placeholder="Message"
+                  requried
+                ></textarea>
+                <br />
+                <button type="submit">Send</button>
+              </form>
+            </div>
+            <div class="col"></div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="container-fluid" id="footer">
+          <div class="row">
+            <div class="col" id="links">
+              <a href="#landing">Home</a>
+              <a href="#about">About</a>
+              <a href="#projects">Projects</a>
+              <a href="#contact">Contact</a>
+            </div>
+            <div class="col">
+              <a href="https://github.com/" target="blank">
+                <i class="fab fa-github-square"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/eckerleryan" target="blank">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
